@@ -1,25 +1,40 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: yumin_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>EW1-02-05</p>
+    <p>Engineering Drive 2</p>
+    <p>Singapore, Singapore 117576</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I am Yumin Zhao, a PhD candidate in Geophysics at National University of Singapore (NUS). I submitted my PhD thesis in August 2022. My PhD defense is expected to be in January 2023.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+#### My PhD research projects
+* I process seismic ambient noise data recorded by distributed acoustic sensing (DAS). 
+  * I remove the near-field traffic noise from the DAS data,
+  * resolve the main source propagation direction, 
+  * estimate the Rayleigh-to-Love waves ratio, and
+  * invert the shear-wave velocity model from the Rayleigh and Love waves extracted from the DAS ambient noise data simultaneously.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+* I develop new methods and algorithms to extract aboveground human activities and underground physical properties (seismic attenuation, shear-wave velocity, etc.) from seismic ambient noise data recorded by traditional geophones. 
+  * I extract footstep signals, monitor human running activities, and analyze the factors (such as policy, workload, etc.) that cause the variations in runner counts over time. 
+  * I extract isolated traffic signals, resolve the seismic attenuation statistically, and analyze the factors (such as rainfall, temperature, and traffic count) that may lead to the changes in the seismic attenuation over time. 
+
+#### My Master's research projects
+* I was mainly focused on the exploration of seismic data processing. 
+  * I proposed an inversion-based time domain method to remove the random noise in the seismic data. 
+  * I developed an inversion algorithm with lateral and sparsity constraints to invert the underground reflectivity model.
+
+ I have listed all the publications during my PhD and master's studies. I also provide the links to the associated pdfs and open software. Please feel free to contact me if you need help downloading the materials and running the codes.
+
