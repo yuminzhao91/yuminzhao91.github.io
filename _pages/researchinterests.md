@@ -18,4 +18,4 @@ My research interests include but are not limited to the following：
 
 * Detecting anomaly/induced seismicity from large seismic datasets.
 
-* I am interested in cutting-edge scientific computational tools, such as deep learning, high-performance computing, and cloud computing. I will apply these tools in my future research projects.
+* Cutting-edge scientific computational tools, such as deep learning, high-performance computing, and cloud computing. I will apply these tools in my future research projects.
